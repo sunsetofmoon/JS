@@ -24,6 +24,10 @@ console.log(em);
 
 let number = [1, 3, 5, 7, 9];
 
-number.splice(0,5,  0, 2, 4, 6, 8, 10);
+number[0] = number[0] + 1;
+number[1] = number[1] + 1;
+number[2] = number[2] + 1;
+number[3] = number[3] + 1;
+number[4] = number[4] + 1;
 
 console.log(number);

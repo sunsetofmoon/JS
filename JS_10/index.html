@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/scss/style.css">
+    <title>Document</title>
+
+    <style>
+        .expo{
+            background-color: blue;
+            color: red;
+            font-size: large;
+            font-weight: 200;
+        }
+    </style>
+</head>
+<body>
+
+
+
+    <ol id="ol">
+        <li>lorem 1</li>
+        <li>lorem 2</li>
+        <li>lorem 3</li>
+        <li>lorem 4</li>
+    </ol>
+
+    <script>
+
+        let ol = document.getElementById('ol')
+
+        let li = document.createElement('li')
+
+        li.append('lorem 5')
+
+        ol.append(li)
+
+
+
+        li.classList.add('expo')
+
+        li.classList.toggle('expo')
+    
+
+
+        ol.append(54321)
+        
+        ol.prepend(12345)
+
+        ol.before('before')
+
+        ol.after('after')
+        
+
+    </script>
+
+
+
+
+
+</body>
+</html>
